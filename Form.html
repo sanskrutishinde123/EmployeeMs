@@ -1,0 +1,86 @@
+
+<HTML>
+<head>
+<title>Form</title>
+<style>
+    .register{
+        padding:16px 20px;
+        background-color: black;
+        color: white;
+    }
+    .div{
+        font-size: 30cm;
+        color:blueviolet;
+    }
+</style>
+</head>
+<body bgcolor="LightBlue">
+<form>
+<fieldset>
+    <div class="container">
+        <h1>Registration Form</h1>
+    </div>
+    <br>
+<label>First Name:<input name="firstName" size="30"  placeholder="FirstName"></label><br>
+<br>
+
+<label>Second Name:<input name="lastName" size="30" placeholder="LastName"></label><br>
+<br>
+
+<label>email:<input type="email" name="email" size="30" placeholder="Email"></label><br>
+<br>
+
+<label>Date of birth:<input type="date" name="birthdate" size="30"></label><br>
+<br>
+
+
+<div class="reg">
+<p>choose your favourite color </p>
+</div>
+<input type="radio" id="pink"   value="Pink">
+<lable for ="pink">Pink</lable>
+<br>  
+
+<input type="radio" id="blue" value="blue">
+<lable for ="pink">blue</lable>
+<br>                   
+
+
+<p>select your gender</p>
+<input type="radio" id="male"  value="Male">
+<lable for ="male">Male</lable>
+<br>
+ 
+<input type="radio" id="female"  value="female">
+<lable for ="female">female</lable>
+<br>
+
+<p>select your language</p>
+<select name="language">
+<option value="English">English</option>
+<option value="Hindi">Hindi</option>
+<option value="Marathi">Marathi</option>
+</select>
+
+<p>
+<label>
+Address:
+<br/>
+<textarea cols="80" rows="5"value="address"></textarea>
+</label>
+</p>
+<br>
+
+
+<p>
+
+<buttontype="submit" class="register" >Submit</buttontype>
+</p>
+
+</fieldset>
+                                                
+                        
+</form>
+
+
+</HTML>
